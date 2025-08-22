@@ -1,0 +1,41 @@
+body {
+  background-color: #111;
+  color: #0ff;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#clock {
+  font-size: 5rem;
+  text-shadow: 0 0 15px #0ff;
+}
+body {
+  background-color: #111;
+  color: #0ff;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#clock {
+  font-size: 5rem;
+  text-shadow: 0 0 15px #0ff;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  font-size: 1rem;
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff;
+  letter-spacing: 1px;
+}
