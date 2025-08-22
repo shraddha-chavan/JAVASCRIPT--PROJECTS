@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #141E30, #243B55);
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  color: #00e0ff;
+  text-shadow: 0px 0px 15px rgba(0, 224, 255, 0.7);
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #bbb;
+  margin-top: 20px;
+}
+
+/* Dice Area */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dice-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.player-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  width: 150px;
+  box-shadow: 0px 0px 15px rgba(0, 224, 255, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.player-card:hover {
+  transform: translateY(-5px);
+}
+
+.player-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #ffcc70;
+}
+
+.player-card img {
+  width: 100%;
+  filter: drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.5));
+  transition: transform 0.3s ease;
+}
+
+.player-card img:hover {
+  transform: rotate(10deg);
+}
+
+/* VS Circle */
+.vs {
+  background: #ff007f;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  box-shadow: 0px 0px 15px rgba(255, 0, 127, 0.6);
+}
+
+/* Button */
+#rollBtn {
+  margin-top: 40px;
+  padding: 12px 30px;
+  background: #00e0ff;
+  color: #141E30;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px rgba(0, 224, 255, 0.5);
+  transition: all 0.3s ease;
+}
+
+#rollBtn:hover {
+  background: #ffcc70;
+  color: #000;
+}
+
+/* Footer */
+footer {
+  padding: 15px;
+  font-size: 0.9rem;
+  color: #bbb;
+}
